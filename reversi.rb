@@ -23,8 +23,8 @@ end
 
 def switch_stone_color
   case @turn_stone_color
-  when BLACK_STONE then @turn_stone_color = WHITE_STONE
-  when WHITE_STONE then @turn_stone_color = BLACK_STONE
+    when BLACK_STONE then @turn_stone_color = WHITE_STONE
+    when WHITE_STONE then @turn_stone_color = BLACK_STONE
   end
 end
 
