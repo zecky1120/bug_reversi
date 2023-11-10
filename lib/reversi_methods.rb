@@ -29,9 +29,9 @@ def output(board)
     print COL[i]
     row.each do |cell|
       case cell
-        when WHITE_STONE then print ' ○'
-        when BLACK_STONE then print ' ●'
-        else print ' -'
+      when WHITE_STONE then print ' ○'
+      when BLACK_STONE then print ' ●'
+      else print ' -'
       end
     end
     print "\n"
