@@ -39,8 +39,8 @@ def output(board)
 end
 
 def copy_board(to_board, from_board)
-  from_board.each.with_index do |cols, col_i|
-    cols.each.with_index do |cell, row_j|
+  from_board.each.with_index do |col, col_i|
+    col.each.with_index do |cell, row_j|
       to_board[col_i][row_j] = cell
     end
   end
